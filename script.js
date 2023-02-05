@@ -7,5 +7,6 @@ if(data.value.length !==0){
 	const textnode=document.createTextNode(data.value);
 	li.appendChild(textnode);
 	list.appendChild(li);
+	data.value="";
 }
 }
